@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: bfhl-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /bfhl
+    envVars:
+      - key: USER_FULL_NAME
+        value: john doe
+      - key: USER_DOB
+        value: "17091999"
+      - key: USER_EMAIL
+        value: john@xyz.com
+      - key: USER_ROLL_NUMBER
+        value: ABCD123
