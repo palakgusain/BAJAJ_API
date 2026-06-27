@@ -6,10 +6,10 @@ services:
     healthCheckPath: /health
     envVars:
       - key: USER_FULL_NAME
-        value: john doe
+        value: Palak Gusain
       - key: USER_DOB
-        value: "17091999"
+        value: "15112005"
       - key: USER_EMAIL
-        value: john@xyz.com
+        value: gusainpalak015@gmail.com
       - key: USER_ROLL_NUMBER
-        value: ABCD123
+        value: 2311981367
